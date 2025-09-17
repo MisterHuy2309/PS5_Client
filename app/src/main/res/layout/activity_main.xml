@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ps5_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btn_cross" android:text="Cross" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_circle" android:text="Circle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_square" android:text="Square" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_triangle" android:text="Triangle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_rowWeight="1" android:background="@color/button_default"/>
+
+    <Button android:id="@+id/btn_l1" android:text="L1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_r1" android:text="R1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_share" android:text="Share" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_options" android:text="Options" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+
+    <Button android:id="@+id/btn_ps" android:text="PS" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_touchpad" android:text="Touchpad" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_l3" android:text="L3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_r3" android:text="R3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+
+    <Button android:id="@+id/btn_dpad_up" android:text="Up" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_dpad_down" android:text="Down" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_dpad_left" android:text="Left" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+    <Button android:id="@+id/btn_dpad_right" android:text="Right" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:background="@color/button_default"/>
+
+</GridLayout>

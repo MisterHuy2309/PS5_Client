@@ -1,0 +1,4 @@
+<resources>
+    <color name="button_default">#C0C0C0</color>
+    <color name="button_active">#FFD700</color>
+</resources>
